@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Same color as the navbar */
+    color: white; /* Change text color to ensure readability */
+    padding: 20px; /* Add some padding to make space for the text */
+    text-align: center;
+    width: 100%; /* Make the header span the full width of the viewport */
+    box-sizing: border-box; /* Include padding in the element's width calculation */
+    margin: 0; /* Remove any default margins */
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+h3{
+    color: #28a745;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white; /* Almost solid white */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Optional shadow for better separation */
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.cancel-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Success message style */
+.success-message {
+    background-color: #28a745; /* Bootstrap-like green */
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Error message style */
+.error-message {
+    background-color: #dc3545; /* Bootstrap-like red */
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.emergency{
+    color: red;
+}
+
+/* FAQ Section */
+.faq-section {
+    margin-top: 40px;
+}
+
+.faq-section h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.faq {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.faq h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.faq p {
+    margin: 0;
+    color: #555;
+}
+
+/* Hover effect for FAQ question headers */
+.faq h3:hover {
+    color: #28a745;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 10px 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Responsive - Adjust nav items for smaller screens */
+@media (max-width: 768px) {
+    .navbar ul li {
+        display: block;
+        padding: 10px;
+    }
+}
+
